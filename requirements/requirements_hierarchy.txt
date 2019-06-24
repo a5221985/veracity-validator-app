@@ -1,0 +1,18 @@
+Phase I:
+1. When I search for phrases I should get verses from the Qur'an as a list in the order of rank
+2. When I search for phrases I should get Hadith from different books as a list in order of rank
+	1. The hadith should indicate the authenticity
+	2. The hadith should display the following categories if possible
+		1. Sahih - Most authentic
+		2. Hasan - Good
+		3. Da'if - week
+		4. Maudu' - fabricated
+	3. If more details are sought, the chain of narrations should be displayed with colors indicating week narrators and strong narrators
+		1. If more details are sought for week narrator, more details should be displayed
+3. My references should get validated against the hadith and give accuracy measure
+
+Phase II:
+1. As we speek, the speech gets recorded as voice as well as text
+2. When text gets generated, the text gets processed for accuracy
+	1. If verses from Qur'an are quoted, the accuracy is verified
+	2. If verses from Hadith are quoted, the accuracy and authenticity are verified
