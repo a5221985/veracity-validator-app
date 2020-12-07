@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>360</x>
+      <y>56</y>
+      <w>272</w>
+      <h>368</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>384</x>
+      <y>128</y>
+      <w>208</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
+*JVM*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>392</x>
+      <y>168</y>
+      <w>184</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+veracity-validator-api.jar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>24</x>
+      <y>96</y>
+      <w>232</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;client&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>32</x>
+      <y>128</y>
+      <w>208</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;browser&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>40</x>
+      <y>160</y>
+      <w>184</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+veracity-validator-ui</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>144</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;protocol&gt;&gt;
+HTTP/HTTPS</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>384</x>
+      <y>304</y>
+      <w>208</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
+*JVM*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>376</x>
+      <y>88</y>
+      <w>232</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;container&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>376</x>
+      <y>272</y>
+      <w>232</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;container&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>392</x>
+      <y>344</y>
+      <w>184</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+elastic-search</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>216</y>
+      <w>88</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;protocol&gt;&gt;
+HTTP/HTTPS</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>96</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;protocol&gt;&gt;
+HTTP/HTTPS</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>728</x>
+      <y>32</y>
+      <w>232</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;service&gt;&gt;
+*speech to text converter*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>728</x>
+      <y>160</y>
+      <w>232</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;archive&gt;&gt;
+*persistent storage*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>184</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;protocol&gt;&gt;
+HTTP/HTTPS</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+</diagram>
